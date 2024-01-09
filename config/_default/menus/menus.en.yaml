@@ -3482,7 +3482,7 @@ main:
     identifier: csm_setup_enterprise
     weight: 10000
   - name: Agent
-    url: security/cloud_security_management/setup/csm_enterprise_agent
+    url: security/cloud_security_management/setup/csm_enterprise/csm_enterprise_agent
     parent: csm_setup_enterprise
     identifier: csm_setup_enterprise_agent
     weight: 1000000
