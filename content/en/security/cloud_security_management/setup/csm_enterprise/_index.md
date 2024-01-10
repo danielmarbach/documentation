@@ -26,13 +26,15 @@ The Cloud Security Management (CSM) Enterprise package includes [CSM Threats][1]
 
 ## Enable resource scanning for cloud accounts
 
-To enable resource scanning for your cloud accounts, you must first set up the integration and then enable CSM for each AWS account, Azure subscription, and Google Cloud project.
+To enable resource scanning for your cloud accounts, you must first set up the integration and then enable CSM for each AWS account, Azure subscription, and Google Cloud project. [LINK TO CLOUD ACCOUNTS DOC][22].
 
 ## Enable CSM Enterprise on the Agent
 
 Placeholder text
 
 {{< partial name="apm/apm-compatibility.html" >}}
+
+<br>
 
 ## Enable CloudTrail logs forwarding
 
@@ -60,3 +62,4 @@ Placeholder text
 [19]: https://console.aws.amazon.com/cloudtrail/home
 [20]: https://console.aws.amazon.com/lambda/home
 [21]: https://app.datadoghq.com/logs?query=service%3Acloudtrail
+[22]: /security/cloud_security_management/setup/csm_enterprise/csm_enterprise_cloud
