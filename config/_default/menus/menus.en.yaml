@@ -2691,6 +2691,11 @@ main:
     identifier: cd_deployments_argocd
     parent: cd_deployments
     weight: 101
+  - name: CI Providers
+    url: continuous_delivery/deployments/ciproviders
+    identifier: cd_deployments_ciproviders
+    parent: cd_deployments
+    weight: 102
   - name: Search and Manage
     url: continuous_delivery/search
     identifier: cd_search
@@ -3449,11 +3454,16 @@ main:
     parent: security_platform
     identifier: security_inbox
     weight: 10
+  - name: Threat Intel
+    url: security/threat_intel
+    parent: security_platform
+    idenfier: security_threat_intel
+    weight: 11
   - name: Audit Trail
     url: security/audit_trail
     parent: security_platform
     identifier: security_audit_trail
-    weight: 11
+    weight: 12
   - name: Cloud SIEM
     url: security/cloud_siem/
     pre: siem
